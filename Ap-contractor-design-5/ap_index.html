@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+	<!-- <link rel="shortcut icon" href="images/favicon.png"> -->
+	<title>AP Contractor App Design 5</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="fontawesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+	<link href="animateit/animate.min.css" rel="stylesheet">
+
+	<!-- Vendor css -->
+	<link href="vendor/owlcarousel/owl.carousel.css" rel="stylesheet">
+	<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+	<!-- Template base -->
+	<link href="css/theme-base.css" rel="stylesheet">
+
+	<!-- Template elements -->
+	<link href="css/theme-elements.css" rel="stylesheet">
+
+<!-- Responsive classes -->
+	<link href="css/responsive.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+
+	<!-- Template color -->
+	<link href="css/color-variations/brown-light.css" rel="stylesheet" type="text/css" media="screen">
+
+	<!-- LOAD GOOGLE FONTS -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900	" rel="stylesheet" type="text/css" />
+	<!-- CSS HOTEL STYLE -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
+	<!-- CSS CUSTOM STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
+
+    <!--VENDOR SCRIPT-->
+    <script src="jquery/jquery-1.11.2.min.js"></script>
+    <script src="js/plugins-compressed.js"></script>
+
+</head>
+
+<body class="wide">
+
+
+	<!-- WRAPPER -->
+	<div class="wrapper">
+
+		<header id="header" class="header-transparent header-dark">
+			<div id="header-wrap">
+				<div class="container">
+
+					<!--LOGO-->
+					<!-- <div id="logo">
+						<a href="ap_index.html" class="logo">
+							<img src="#" alt="AP Contrator Logo">
+						</a>
+					</div> -->
+					<!--END: LOGO-->
+
+					<!--MOBILE MENU -->
+					<div class="nav-main-menu-responsive">
+						<button class="lines-button x">
+							<span class="lines"></span>
+						</button>
+					</div>
+					<!--END: MOBILE MENU -->
+
+
+					<!--NAVIGATION-->
+					<div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
+						<div class="container">
+							<nav id="mainMenu" class="main-menu mega-menu">
+								<ul class="main-menu nav nav-pills">
+									<li><a href="#about_us">About Us</a></li>
+									<li><a href="#projects">Projects</a></li>
+									<li><a href="#team">Our Team</a></li>
+									<li><a href="#services">Services</a></li>
+									<li><a href="#contact_us">Contact Us</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<!--END: NAVIGATION-->
+				</div>
+			</div>
+		</header>
+
+		<section id="slider">
+			<div id="slider-carousel" class="boxed-slider">
+				<div style="background-image:url('images/slider_image.png');" class="owl-bg-img background-overlay-one">
+					<div class="container-fullscreen">
+						<div class="text-middle">
+							<div class="container">
+								<div class="slider-content text-light main_header">
+									<h2 class="text-medium no-margin">Building not just</h2>
+									<h2 class="text-medium no-margin">structures but dreams</h2>
+									<p class="slider_desc">We are a company who see your dreams materialize. We are on a mission to make spaces formidably spectacular, strong and much better than your expectations. Dedicated to life-term durability, modular building and future-proof technology, we are dedicated to quality in affordability. Through intelligent forethought and end-to-end support, we build not just structures but dreams.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div style="background-image:url('images/slider_image.png');" class="owl-bg-img background-overlay-one">
+					<div class="container-fullscreen">
+						<div class="text-middle">
+							<div class="container">
+								<div class="slider-content text-light main_header">
+									<h2 class="text-medium no-margin">Building not just</h2>
+									<h2 class="text-medium no-margin">structures but dreams</h2>
+									<p class="slider_desc">We are a company who see your dreams materialize. We are on a mission to make spaces formidably spectacular, strong and much better than your expectations. Dedicated to life-term durability, modular building and future-proof technology, we are dedicated to quality in affordability. Through intelligent forethought and end-to-end support, we build not just structures but dreams.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reservation-form-over no-padding">
+			<div class="container">
+				<div class="row">
+
+					<div class="reservation-form">
+						<form action="#" method="post" >
+								<h6 class="form_text font-weight-600">Place a Request</h6>
+							<div class="col-md-4">
+								<div class="form-group">
+									<div class="form-group">
+											<input name="name" id="name" data-email="required" placeholder="Name" class="form-control" type="text">
+									</div>
+									<div class="form-group">
+											<input name="mobile" id="mobile" data-email="required" placeholder="Mobile" class="form-control" type="text">
+										</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<div class="form-group">
+											<input name="name" id="email" data-email="required" placeholder="Email" class="form-control" type="text">
+									</div>
+									<div class="form-group">
+											<input name="query" id="query" data-email="required" placeholder="Query" class="form-control" type="text">
+										</div>
+								</div>
+							</div>
+							<div class="col-md-1"></div>
+							<div class="col-md-3">
+								<div class="form-group">
+									<button class="btn m-t-35 submit_btn">Submit</button>
+								</div>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="about_us">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+					<div class="col-md-5" style="height:400px">
+						<div class="image-absolute abt_img" data-animation="fadeInLeft" data-animation-delay="800">
+							<img src="images/about.png" alt="">
+						</div>
+					</div>
+
+
+
+					<div class="col-md-6 col-md-offset-1" data-animation="fadeInUp" data-animation-delay="1000">
+						<div class="m-b-40">
+							<h1 class="text-medium section_header">About Us</h1>
+							<h2 class="section_header lighter_shade">Firm type</h2>
+							<span class="lead temp_text">A company of comprehensive and customer centric design, assistance and execution, we believe in structures that can weather anything, be it climate or the future technology. Trust is our support system; the trust of our customers. You can pass on your thoughts to us and we secure it, materialize it and you can be worriless.  We cherish this trust and go to farfetched magnitudes to honor it.
+				     </span>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+
+<section id="service_icons">
+	<div class="container">
+	 <div class="row">
+		 <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+		 <div class="col-md-1 col-sm-1"></div>
+			<div class="col-md-2 col-sm-2 col-xs-12 box_right_border sm-margin-fifteen-bottom xs-margin-seventeen-bottom">
+					<div class="counter-content">
+							<span class="sm-text-medium display-block">
+								<div class="social-icon">
+							      <img src="images/14 Year of establishment Icon@.png">
+									</div>
+							</span>
+							<span class="no_count">14</span>
+							<span class="page_desc">Year of establishment</span>
+					</div>
+			</div>
+			<div class="col-md-2 col-sm-2 col-xs-12 box_right_border sm-margin-fifteen-bottom xs-margin-seventeen-bottom">
+					<div class="counter-content">
+						 <span class="sm-text-medium display-block">
+							 <div class="social-icon">
+							     <img src="images/20 Segment of expertise  Icon.png">
+								</div>
+						 </span>
+							<span class="no_count">20</span>
+							<span class="page_desc">Segment of expertise</span>
+					</div>
+			</div>
+		 <div class="col-md-2 col-sm-2 col-xs-12 box_right_border sm-margin-fifteen-bottom xs-margin-seventeen-bottom">
+					<div class="counter-content">
+						 <span class="sm-text-medium display-block">
+							 <div class="social-icon">
+							     <img src="images/projects-executed-Icon-.png">
+							 </div>
+						 </span>
+							<span class="no_count">120</span>
+							<span class="page_desc">Projects executed till 23 feb</span>
+					</div>
+			</div>
+			<div class="col-md-2 col-sm-2 col-xs-12 box_right_border sm-margin-fifteen-bottom xs-margin-seventeen-bottom">
+					<div class="counter-content">
+							<span class="sm-text-medium display-block">
+								<div class="social-icon">
+							      <img src="images/Value_of_Completed_projects_Icon.png">
+								</div>
+							</span>
+							<span class="no_count">234</span>
+							<span class="page_desc">Value of completed projects</span>
+					</div>
+			</div>
+			<div class="col-md-2 col-sm-2 col-xs-12 sm-margin-fifteen-bottom xs-margin-seventeen-bottom">
+					<div class="counter-content">
+						 <span class="sm-text-medium display-block">
+							 <div class="social-icon">
+							     <img src="images/100 Revenue LY.png">
+								</div>
+							</span>
+							<span class="no_count">100</span>
+							<span class="page_desc">Revenue LY</span>
+					</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</section>
+
+<section id="team">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-12 col-sm-12">
+			<div class="col-md-4 col-sm-12">
+				<h2 class="text-medium m-t-0 section_header">Our Team</h2>
+				<p class="lead temp_text">Our company is our team as much as our team is the company. Our values are strongly imbibed in each of our team members and we base all our decisions on these fundamentals. Extremely qualified and incomparably committed to each project, our team is equipped with empathy that is imperative in any project.</p>
+			</div>
+			<div class="col-md-8 col-sm-8">
+				<div class="rooms carousel" data-carousel-col="2">
+					<div class="room">
+						<div class="room-image">
+							<img src="images/Image-2.png" alt="#">
+							<div class="room-title">NAME 1</div>
+						</div>
+						<div class="room-details">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+						</div>
+					</div>
+					<div class="room">
+						<div class="room-image">
+							<img src="images/Image-3.png" alt="#">
+							<div class="room-title">NAME 2</div>
+						</div>
+						<div class="room-details">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+						</div>
+
+
+					</div>
+					<div class="room">
+						<div class="room-image">
+							<img src="images/Image-2.png" alt="#">
+							<div class="room-title">NAME 3</div>
+						</div>
+						<div class="room-details">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="row m-t-60">
+		 <div class="col-md-12 col-sm-12">
+			<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="counter-content1">
+					 <span class="sm-text-medium display-block">
+						 <div class="social-icon">
+								 <img src="images/14 Supervisors.png">
+							</div>
+					 </span>
+						<span class="no_count1">14<span class="page_desc1 xs-text">Supervisors</span></span>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="counter-content1">
+					 <span class="sm-text-medium display-block">
+						 <div class="social-icon">
+								 <img src="images/20 Painters.png">
+							</div>
+					 </span>
+						<span class="no_count1">20<span class="page_desc1 xs-text">Painters</span></span>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="counter-content1">
+					 <span class="sm-text-medium display-block">
+						 <div class="social-icon">
+								 <img src="images/120 Texture Applicators.png">
+							</div>
+					 </span>
+						<span class="no_count1">120<span class="page_desc1 xs-text">Texture Applicators</span></span>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="counter-content1">
+					 <span class="sm-text-medium display-block">
+						 <div class="social-icon">
+								 <img src="images/234 Graco Operators.png">
+							</div>
+					 </span>
+						<span class="no_count1">234<span class="page_desc1 xs-text">Graco Operators</span></span>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="row m-t-30 sm-m-t-10">
+		 <div class="col-md-12 col-sm-12">
+			<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="counter-content1">
+					 <span class="sm-text-medium display-block">
+						 <div class="social-icon">
+								 <img src="images/100 Royale Play Applicators.png">
+							</div>
+					 </span>
+						<span class="no_count1">100<span class="page_desc1 xs-text">Royale Play Applicators</span></span>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="counter-content1">
+					 <span class="sm-text-medium display-block">
+						 <div class="social-icon">
+								 <img src="images/62 Waterproofing Applicators.png">
+							</div>
+					 </span>
+						<span class="no_count1">62<span class="page_desc1 xs-text">Waterproofing Applicators</span></span>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-12">
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-12">
+			</div>
+		</div>
+		</div>
+
+	</div>
+</section>
+
+<section id="services">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="text-medium text-white section_header text-bold">Services</div>
+				  <p class="text-white">Our comprehensive set of services are the pride of our company. We do not compromise on quality, equitability of decisions, expert advice and on-the-dot excution.</p>
+				<div class="accordion toggle fancy clean accordion-transparent">
+					<div class="ac-item">
+						<h5 class="ac-title section_header text-white text-bold">Service name</h5>
+						<div class="ac-content"><img src="images/Image-4.png" style="margin-right:20px; margin-top:16px;" alt="">
+							<p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+						</div>
+					</div>
+					<div class="ac-item">
+						<h5 class="ac-title section_header text-white text-bold">Service name</h5>
+						<div class="ac-content"><img src="images/Image-4.png" style="margin-right:20px; margin-top:16px;" alt="">
+							<p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+						</div>
+					</div>
+					<div class="ac-item">
+						<h5 class="ac-title section_header text-white text-bold">Service name</h5>
+						<div class="ac-content"><img src="images/Image-4.png" style="margin-right:20px; margin-top:16px;" alt="">
+							<p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+						</div>
+					</div>
+					<div class="ac-item">
+						<h5 class="ac-title section_header text-white text-bold">Service name</h5>
+						<div class="ac-content"><img src="images/Image-4.png" style="margin-right:20px; margin-top:16px;" alt="">
+							<p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+			</div>
+
+		</div>
+
+	</div>
+</section>
+
+<section id="projects" class="p-t-150 p-b-150 parallax xs-p-80" data-stellar-background-ratio="0.5">
+	<div class="container">
+		<div class="row">
+		 <div class="col-md-12 col-sm-12">
+			<div class="col-md-6 col-sm-12">
+				<div class="text-dark text-medium section_header">On Going Projects</div>
+				<p class="lead text-dark temp_text">The projects that we are currently engaged with are dream set. The services we render are showcased in these structures and as a result, show our intelligent architectural decision making.</p>
+			</div>
+
+			<div class="col-md-6 col-sm-12">
+				<div id="project-slider-carousel">
+					<div class="owl-item">
+						<a href="#" title="project1"><img src="images/Image-5.png" alt="">
+							<div class="bg_black" style="text-align:left;">
+								<div class="row sm_row" style="padding :15px;">
+									<div class="col-sm-12 col-xs-12">
+										<div class="col-sm-4 col-xs-12">
+											<h3 class="text-small text-white text-white_sm">FORUM MALL</h3>
+											<p class="text-white text-white_sm">Project cost- 2 lakhs</p>
+										</div>
+										<div class="col-sm-6 col-xs-12">
+											<br class="hidden-xs">
+											<p class="text-white text-white_sm">Project time duration- 6</p>
+										</div>
+										<div class="col-sm-2 col-xs-1"></div>
+									</div>
+									<div class="col-sm-12 col-xs-12">
+									  <p class="text-white white_Desc text-white_sm"><b>Description of work</b>- Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								  </div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="owl-item">
+						<a href="#" title="project2"><img src="images/Image-5.png" alt="">
+							<div class="bg_black">
+								<div class="row sm_row" style="padding :15px;">
+									<div class="col-sm-12 col-xs-12">
+										<div class="col-sm-4 col-xs-12">
+											<h3 class="text-small text-white text-white_sm">FORUM MALL</h3>
+											<p class="text-white text-white_sm">Project cost- 2 lakhs</p>
+										</div>
+										<div class="col-sm-6 col-xs-12">
+											<br class="hidden-xs">
+											<p class="text-white text-white_sm">Project time duration- 6</p>
+										</div>
+										<div class="col-sm-2 col-xs-1"></div>
+									</div>
+									<div class="col-sm-12 col-xs-12">
+									  <p class="text-white white_Desc text-white_sm"><b>Description of work</b>- Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								  </div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</section>
+
+<section id="completed_projects" class="p-t-150 p-b-150 parallax xs-p-80" data-stellar-background-ratio="0.5">
+	<div class="container">
+		<div class="row">
+		 <div class="col-md-12 col-sm-12">
+			<div class="col-md-6 col-sm-12">
+				<div class="text-dark text-medium section_header">Completed Projects</div>
+				<p class="lead text-dark temp_text">The projects that we are currently engaged with are dream set. The services we render are showcased in these structures and as a result, show our intelligent architectural decision making.</p>
+			</div>
+
+			<div class="col-md-6 col-sm-12">
+				<div id="completed_project-slider-carousel">
+					<div class="owl-item">
+						<a href="#" title="project1"><img src="images/Image-5.png" alt="">
+							<div class="bg_black" style="text-align:left;">
+								<div class="row sm_row" style="padding :15px;">
+									<div class="col-sm-12 col-xs-12">
+										<div class="col-sm-4 col-xs-12">
+											<h3 class="text-small text-white text-white_sm">FORUM MALL</h3>
+											<p class="text-white text-white_sm">Project cost- 2 lakhs</p>
+										</div>
+										<div class="col-sm-6 col-xs-12">
+											<br class="hidden-xs">
+											<p class="text-white text-white_sm">Project time duration- 6</p>
+										</div>
+										<div class="col-sm-2 col-xs-1"></div>
+									</div>
+									<div class="col-sm-12 col-xs-12">
+									  <p class="text-white white_Desc text-white_sm"><b>Description of work</b>- Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								  </div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="owl-item">
+						<a href="#" title="project2"><img src="images/Image-5.png" alt="">
+							<div class="bg_black">
+								<div class="row sm_row" style="padding :15px;">
+									<div class="col-sm-12 col-xs-12">
+										<div class="col-sm-4 col-xs-12">
+											<h3 class="text-small text-white text-white_sm">FORUM MALL</h3>
+											<p class="text-white text-white_sm">Project cost- 2 lakhs</p>
+										</div>
+										<div class="col-sm-6 col-xs-12">
+											<br class="hidden-xs">
+											<p class="text-white text-white_sm">Project time duration- 6</p>
+										</div>
+										<div class="col-sm-2 col-xs-1"></div>
+									</div>
+									<div class="col-sm-12 col-xs-12">
+									  <p class="text-white white_Desc text-white_sm"><b>Description of work</b>- Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								  </div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</section>
+
+<!-- REVIEWS -->
+<section id="testimonial" class="xs-p-80">
+		<div class="container">
+				<div class="testimonial_sec">
+						<div class="text-white text-medium section_header">Testimonials</div>
+						<span class="lead text-white testimonial_text temp_text">What our customers have to say is vital. This has sourced our research and development for decades. After all, only a smile on the customer’s face will conclude any project.</span>
+				</div>
+				<div class="carousel testimonial1" data-carousel-col="3" data-carousel-dots="true" data-isotope-item="testimonial">
+						<div class="testimonial">
+								<div class="testimonial-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+								<div class="testimonial-image">
+										<img class="round" src="images/Image-6.png" alt="image">
+										<h4>NAME</h4>
+										<p class="subtitle text-white">Lorem ipsum dolor sit</p>
+								</div>
+						</div>
+						<div class="testimonial">
+								<div class="testimonial-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+
+								<div class="testimonial-image">
+										<img class="round" src="images/Image-6.png" alt="image">
+										<h4>NAME</h4>
+										<p class="subtitle text-white">Lorem ipsum dolor sit</p>
+								</div>
+						</div>
+						<div class="testimonial">
+								<div class="testimonial-description">
+
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+								<div class="testimonial-image">
+										<img class="round" src="images/Image-6.png" alt="image">
+										<h4>NAME</h4>
+										<p class="subtitle text-white">Lorem ipsum dolor sit</p>
+								</div>
+						</div>
+						<div class="testimonial">
+								<div class="testimonial-description">
+
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+								<div class="testimonial-image">
+										<img class="round" src="images/Image-6.png" alt="image">
+										<h4>NAME</h4>
+										<p class="subtitle text-white">Lorem ipsum dolor sit</p>
+								</div>
+						</div>
+						<div class="testimonial">
+								<div class="testimonial-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+
+								<div class="testimonial-image">
+										<img class="round" src="images/Image-6.png" alt="image">
+										<h4>Name</h4>
+										<p class="subtitle text-white">Lorem ipsum dolor sit</p>
+								</div>
+						</div>
+						<div class="testimonial">
+								<div class="testimonial-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+
+								<div class="testimonial-image">
+										<img class="round" src="images/Image-6.png" alt="image">
+										<h4>Name</h4>
+										<p class="subtitle text-white">Lorem ipsum dolor sit</p>
+								</div>
+						</div>
+						<div class="testimonial">
+								<div class="testimonial-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+
+								<div class="testimonial-image">
+										<img class="round" src="images/Image-6.png" alt="image">
+										<h4>Name</h4>
+										<p class="subtitle text-white">Lorem ipsum dolor sit</p>
+								</div>
+						</div>
+						<div class="testimonial">
+								<div class="testimonial-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+
+								<div class="testimonial-image">
+										<img class="round" src="images/Image-6.png" alt="image">
+										<h4>Name</h4>
+										<p class="subtitle text-white">Lorem ipsum dolor sit</p>
+								</div>
+						</div>
+						<div class="testimonial">
+								<div class="testimonial-description">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								</div>
+
+								<div class="testimonial-image">
+										<img class="round" src="images/Image-6.png" alt="image">
+										<h4>Name</h4>
+										<p class="subtitle text-white">Lorem ipsum dolor sit</p>
+								</div>
+						</div>
+				</div>
+		</div>
+</section>
+<!-- END: REVIEWS -->
+
+<!-- FOOTER -->
+<footer class="background-white text-dark" id="contact_us">
+
+	<div class="footer-content">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="widget clearfix widget-categories">
+						<h4 class="widget-title section_header text-medium">Contact Us</h4>
+						<div class="text-dark"><b class="section_header">ADDRESS</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div> <br> <br>
+						<div class="text-dark"><b class="section_header">EMAIL</b>: <a class="ext-dark" href="mailto:Contractor@asianpaints.com">Contractor@asianpaints.com</div> <br>
+						<div class="text-dark"><b class="section_header">PHONE</b>: +91 6785654566</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-7">
+					<div class="widget clearfix widget-contact-us-form" style="margin-top: 80px;">
+														<h4 class="widget-title section_header">Contact forum</h4>
+														<form id="widget-contact-form-footer" action="include/contact-form-footer.php" role="form" method="post" class="form-transparent-fields">
+																<div class="row">
+																		<div class="col-md-7">
+																				<div class="form-group">
+																						<input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Your full name">
+																				</div>
+																				<div class="form-group">
+																						<input type="email" aria-required="true" name="widget-contact-form-email" class="form-control required email" placeholder="Your email">
+																				</div>
+																				<div class="form-group">
+																						<input type="mobile" aria-required="true" name="widget-contact-form-mobile" class="form-control required mobile" placeholder="Phone number">
+																				</div>
+																		</div>
+
+																		<div class="col-md-5">
+																				<div class="form-group">
+																						<textarea type="text" name="widget-contact-form-message" rows="5" class="form-control required" placeholder="Message"></textarea>
+																				</div>
+																				<input type="text" class="hidden" id="widget-contact-form-antispam" name="widget-contact-form-antispam" value="" />
+																				<button type="submit" class="button medium right no-margin sbmt_Btn"><i class="fa fa-paper-plane fa-2x"></i>&nbsp;SUBMIT</button>
+																		</div>
+																</div>
+														</form>
+														<script type="text/javascript">
+
+																jQuery("#widget-contact-form-footer").validate({
+
+																		submitHandler: function(form) {
+
+																				jQuery(form).ajaxSubmit({
+																						success: function(text) {
+																								if (text.response == 'success') {
+																										$.notify({
+																												message: "We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible."
+																										}, {
+																												type: 'success'
+																										});
+																										$(form)[0].reset();
+																								} else {
+																										$.notify({
+																												message: text.message
+																										}, {
+																												type: 'danger'
+																										});
+																								}
+																						}
+																				});
+																		}
+																});
+
+														</script>
+												</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	<div class="copyright-content ap_copy">
+		<div class="container">
+			<div class="row">
+			                    <!-- end logo -->
+			                    <!-- links -->
+			                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+			                        <p class="copy_content">&copy; 2007 Contractor Website</p>
+			                    </div>
+			                    <div class="col-md-6 col-sm-6 col-xs-12 text-center margin-four-bottom">
+			                        <div class="social social-icon-color title-small">
+			                            <a href="#" class="margin-eight-right">
+			                                <i class="fa fa-facebook social_icon1" aria-hidden="true"></i>
+			                            </a>
+			                            <a href="#" class="margin-eight-right">
+			                                <i class="fa fa-twitter social_icon2" aria-hidden="true"></i>
+			                            </a>
+			                            <a href="#" class="margin-eight-right">
+			                                <i class="fa fa-google-plus social_icon3" aria-hidden="true"></i>
+			                            </a>
+			                            <a href="#" class="margin-eight-right">
+			                                <i class="fa fa-pinterest social_icons" aria-hidden="true"></i>
+			                            </a>
+			                            <a href="#">
+			                                <i class="fa fa-youtube social_icons" aria-hidden="true"></i>
+			                            </a>
+			                        </div>
+			                    </div>
+			                </div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<!-- END: WRAPPER -->
+
+	<!-- GO TOP BUTTON -->
+	<a class="gototop gototop-button" href="#"><i class="fa fa-chevron-up"></i></a>
+
+
+	<!-- Theme Base, Components and Settings -->
+	<script src="js/theme-functions.js"></script>
+
+	<!-- Custom js file -->
+	<script src="js/custom.js"></script>
+
+
+
+</body>
+
+</html>
